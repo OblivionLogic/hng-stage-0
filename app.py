@@ -8,7 +8,7 @@ CORS(app)
 @app.route('/', methods=['GET'])
 def get_info():
     return jsonify({
-        "email": "your-email@example.com",
+        "email": "dicekhandy@gmail.com",
         "current_datetime": datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         "github_url": "https://github.com"
     }), 200
